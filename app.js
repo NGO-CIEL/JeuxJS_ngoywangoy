@@ -97,7 +97,7 @@ exp.ws('/qr', function (ws, req) {
         jeuxQr.NouvelleQuestion();
     } else {
         jeuxQr.EnvoyerEtatA(ws);
-    }
+    } 
 
     // Option 1: fonction intermediaire 
     ws.on('message', function TMessage(message) {
