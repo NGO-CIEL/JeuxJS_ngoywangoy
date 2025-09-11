@@ -118,7 +118,7 @@ class CQr {
                 });
             }
         });
-    }
+    } 
 
     EnvoyerEtatA(ws) {
         if (!ws || ws.readyState !== WebSocket.OPEN) return;

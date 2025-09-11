@@ -99,7 +99,7 @@ exp.ws('/qr', function (ws, req) {
         jeuxQr.EnvoyerEtatA(ws);
     }
 
-    // Option 1: fonction intermediaire
+    // Option 1: fonction intermediaire 
     ws.on('message', function TMessage(message) {
         jeuxQr.TraiterReponse(ws, message);
     });
