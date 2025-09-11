@@ -5,7 +5,7 @@ const pluginJs = require("@eslint/js");
 module.exports = [
     {
         languageOptions: {
-            globals: globals.browser,
+            globals: globals.browser, 
         },
         rules: {
             "indent": ["warn", 4],          // avertir une indentation de 4 espaces 
